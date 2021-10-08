@@ -1,7 +1,9 @@
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
 body{
-    background-color:pink;
-    /* display:flex */
+    background-color:pink
 }
-.link-github{
-    /* display:flex */
-}
+/* .link-github{
+    display:flex
+} */

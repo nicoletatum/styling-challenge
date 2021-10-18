@@ -8,18 +8,19 @@
     <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
-    <a href="#main" class="skip-link container">Skip to main content</a>
+  <section class="container">
+    <a href="#main" class="skip-link subtitle">Skip to main content</a>
     <header>
-      <div class="container">
-        <h1>Style Stage</h1>
-        <h2>A modern CSS showcase styled by community contributions</h2>
-        <p>
-          Maintained by <a href="https://twitter.com/5t3ph">Stephanie Eckles</a> of
+      <div>
+        <div class="title">Style Stage</div>
+        <div class="subtitle">A modern CSS showcase styled by community contributions</div>
+        <div class="subtitle">
+          Maintained by <a href="httdivs://twitter.com/5t3ph">Stephanie Eckles</a> of
           <a href="https://moderncss.dev">ModernCSS.dev</a>
-        </p>
+        </div>
         <a href="https://github.com/5t3ph/stylestage" class="link-github"
           ><span
-            ><svg
+            ><svg class="star"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
               aria-hidden="true"
@@ -34,22 +35,21 @@
         >
       </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#guidelines">Guidelines</a></li>
-        <li><a href="#contribute">Contribute</a></li>
-        <li><a href="#files">Files</a></li>
-        <li><a href="/styles/">All Styles</a></li>
-        <li><a href="/resources/">Resources</a></li>
-      </ul>
+    <nav class="navbar">
+        <a href="#about" class="navbar-item">About</a>
+        <a href="#guidelines" class="navbar-item">Guidelines</a>
+        <a href="#contribute" class="navbar-item">Contribute</a>
+        <a href="#files" class="navbar-item">Files</a>
+        <a href="/styles/" class="navbar-item">All Styles</a>
+        <a href="/resources/" class="navbar-item">Resources</a>
     </nav>
+    </section>
 
     <main id="main" tabIndex="-1">
       <div class="container">
         <article id="about">
           <section class="container">
-            <h2>Setting the Stage</h2>
+            <div class="title is-4">Setting the Stage</div>
             <p>
               In 2003, <a href="http://daveshea.com/projects/zen/">Dave Shea</a> began a legendary
               project called <a href="http://www.csszengarden.com/">CSS Zen Garden</a> that provided
@@ -80,7 +80,7 @@
             </p>
           </section>
           <section class="container">
-            <h2>Modern CSS Under the Spotlight</h2>
+            <div class="title is-4">Modern CSS Under the Spotlight</div >
             <p>
               Modern CSS has increased and improved the available CSS properties and layout
               behaviors, and browser support is nearly in sync for most high-touch features.
@@ -117,7 +117,7 @@
         </article>
         <article id="guidelines">
           <section class="container">
-            <h2>Guidelines</h2>
+            <div class="title is-4">Guidelines</div >
             <p>
               Contributing a stylesheet to Style Stage means you agree to abide by
               <a href="/guidelines/">our full guidelines</a>.
@@ -149,7 +149,7 @@
         </article>
         <article id="contribute">
           <section class="container">
-            <h2>Contribute</h2>
+            <div class="title is-4">Contribute</div>
             <p>All who enjoy the craft of writing CSS are welcome to contribute!</p>
             <p>
               By participating as a contributor, your work will be shared with your provided
@@ -244,7 +244,8 @@
         <a href="/styles/" class="link-allstyles">View All Styles</a>
       </div>
     </aside>
-    <footer class="page-footer">
+
+    <footer class="footer">
       <div class="container">
         <p>
           Created and maintained by
@@ -256,7 +257,7 @@
           </li>
           <li>
             <a href="https://github.com/5t3ph/stylestage" class="link-github"
-              ><svg
+              ><svg class="star"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 32 32"
                 aria-hidden="true"
@@ -284,6 +285,7 @@
           <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA</a>
         </p>
       </div>
+
     </footer>
   </body>
 </html>

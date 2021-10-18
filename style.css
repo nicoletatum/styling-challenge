@@ -7,3 +7,7 @@ body{
 /* .link-github{
     display:flex
 } */
+
+.star{
+    max-width:1.5%
+}
